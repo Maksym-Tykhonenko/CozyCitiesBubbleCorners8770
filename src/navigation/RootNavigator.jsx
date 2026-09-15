@@ -263,7 +263,7 @@ const RootNavigator = () => {
     } catch (error) {}
   };
 
-D
+
   useEffect(() => {
     if (timeStampUserId) {
       OneSignal.login(timeStampUserId);
